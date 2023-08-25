@@ -1,0 +1,72 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh; */
+    margin-top: 30px;
+    /* background-image: url('/public/Assest/bg.png'); */
+    background:  url('../Assest/bg.png');
+    /* background-image: url('/public/Assest/transparent.png'); */
+    border-radius: 19.447px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: #0d0d0dcf; */
+/* filter: blur(10px)} */
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust the spacing between rows */
+}
+
+.card {
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 0 10px; 
+    border-radius: 19.447px;
+background: lightgray 0% 0% / 50.8334219455719px 50.8334219455719px repeat, radial-gradient(151.92% 127.02% at 15.32% 21.04%, rgba(165, 239, 255, 0.20) 0%, rgba(110, 191, 244, 0.04) 77.08%, rgba(70, 144, 212, 0.00) 100%);
+background-blend-mode: overlay, normal;
+
+}
+.des{
+    width: 200px;
+    height: 250px;
+}
+
+.img-container {
+    margin-bottom: 10px;
+}
+
+.img {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 160px;
+    height: 160px;
+    border-radius: 90px;
+}
+
+.details {
+    margin: 20px;
+    border: 2px solid rgb(184, 184, 69);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
